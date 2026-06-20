@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    background-color: #ffffff;
+}
+
+/* Navigation */
+.nav{
+    background-color: #047c6a;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    text-decoration: none;
+    z-index: 1000;
+    opacity: 1 !important;
+}
+
+.leftn {
+    justify-content: left;
+    padding-left: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Black Ops One'
+}
+
+.rightn {
+    align-items: right;
+    font-family: 'Roboto Condensed';
+}
+
+.rightn li a{
+    color: #202626;
+    text-decoration: none;
+}
+
+.rightn li {
+    display: inline-block;
+    font-size: 30px;
+    margin: 5px 5px 5px 5px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* head */
+.head {
+    height: 100vh;
+    background-image: url("images/BG-me.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+.left {
+    padding-left: 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.left img {
+    filter: contrast(150%);
+    filter: brightness(50%)
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Photo {
+    margin-bottom: 0;
+    justify-content: flex-end;
+    /* margin-top: 28%; */
+    height:740px;
+    width: auto;
+}
+
+#name {
+    font-family: 'Playfair Display';
+    font-size: 110px;
+    color: #2b334b;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+#upper {
+    font-family: 'Montserrat';
+    font-size: 60px;
+    /* margin-left: 140px; */
+    color: #00a68e;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#contact {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content : center;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #2b334b;
+}
+
+.c {
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: #2b334b;
+}
+
+.c:hover {
+    color: #00a68e;
+}
+
+#headSec {
+    transition: opacity 0.2s linear;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+/* About Me */
+.AboutMe {
+    margin: 10px;
+}
+
+.heading{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-family: 'Playfair Display';
+
+}
+
+.content {
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+/* Main */
+.main {
+    margin: 10px;
+}
+
+/* Skills */
+.skills {
+    margin-top: 0;
+    margin-left:10%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+    justify-content: center;
+    align-items:center;
+    padding: 0 40px 40px 40px;
+}
+
+.skill-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #f1f1f1;
+    padding: 15px 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.skill-card img {
+    width: 50px;
+    height: 50px;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Projects */
+.projects {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0;
+}
+
+.card {
+    margin: 10px 0 10px 10px;
+    padding: 10px;
+    background-color: #00a68e;
+}
+
+.title {
+    text-align: left;
+    margin: 2px;
+}
+
+.projcon {
+    text-align: center;
+}
+
+.btn {
+    font-family: 'Montserrat';
+    display: inline-block;
+    padding: 8px 16px;
+    background: #037c69;
+    color: #192b30;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+}
+
