@@ -48,7 +48,7 @@ body {
 
 /* head */
 .head {
-    max-height: 100vh;
+    height: 100vh;
     background-image: url("images/BG-me.png");
     background-size: cover;
     background-position: center;
