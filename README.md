@@ -13,4 +13,4 @@ This is my personal portfolio website showcasing my projects, skills, and experi
 - Contact section
 
 ## Live Site
-https://udhavahuja.github.io
+https://udhav-portfolio.netlify.app/
